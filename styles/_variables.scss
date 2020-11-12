@@ -1,3 +1,49 @@
 $primary: #fe7401;
+<<<<<<< HEAD
 $text-color: #151515;
 $secondary: #504026;
+=======
+$secondary: #504026;
+$light: #f0f0f0;
+$info: #f0f0f08f;
+
+.heading {
+  font-size: 3rem;
+  font-weight: 700;
+  font-family: TFArrow;
+  line-height: 2.76rem;
+  margin: 20px 0;
+}
+
+.sub-heading {
+  font-size: 2.5rem;
+  font-weight: 550;
+  font-family: TFArrow;
+  margin: 20px 0;
+  line-height: 2.3rem;
+}
+
+.heading-sm {
+  font-family: TFArrow;
+  font-size: 1.5rem;
+  font-weight: 550;
+  line-height: 1.375rem;
+  letter-spacing: -0.02em;
+  margin: 1.3rem 0;
+}
+
+.bold {
+  //   font-weight: bold;
+  line-height: 54px;
+}
+
+.arrow-btn {
+  width: 5rem;
+  height: 5rem;
+  border-radius: 100%;
+  background-color: $info;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+>>>>>>> 6b83bc059e6390acde5f45b0d7f9fc941a2a808b
