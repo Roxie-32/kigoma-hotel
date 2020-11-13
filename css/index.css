@@ -7270,8 +7270,11 @@ ul {
   background-color: rgba(0, 0, 0, 0.5);
   height: inherit;
   position: relative; }
-  #home .overlay nav .nav-brand img {
-    width: 3rem; }
+  #home .overlay nav {
+    font-size: 1.3rem;
+    font-weight: bold; }
+    #home .overlay nav .nav-brand img {
+      width: 3rem; }
   #home .overlay .covid-btn {
     position: absolute;
     top: 20%; }
