@@ -1,0 +1,17 @@
+@mixin flexcenter {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+@mixin media-sm {
+  @media screen and (max-width: $md) {
+    @content;
+  }
+}
+
+@mixin media-md {
+  @media screen and (min-width: $md) {
+    @content;
+  }
+}
